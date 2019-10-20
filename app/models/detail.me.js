@@ -26,7 +26,7 @@ const DetailMeSchema = mongoose.Schema({
         required: true
     },
     my_role: {
-        type: String,
+        type: Array,
         required: true
     },
     my_primary_role: {
